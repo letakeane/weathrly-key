@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { getWeatherData } from '../apiUtils.js';
+import { cleanData } from '../dataUtils.js';
 
 class App extends Component {
   constructor() {
@@ -8,7 +10,9 @@ class App extends Component {
     }
   }
 
-  componentDidMount() {}
+  componentDidMount() {
+
+  }
 
   render() {
     return (
